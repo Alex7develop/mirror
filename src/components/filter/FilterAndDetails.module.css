@@ -1,0 +1,26 @@
+.filterContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.filterInput {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.filterButton {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.filterButton:hover {
+  background-color: #45a049;
+}

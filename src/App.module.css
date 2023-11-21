@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,500&family=Poppins:wght@500&family=Questrial&family=Roboto:wght@500&family=Rubik:wght@500&display=swap');
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
